@@ -3,33 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Tzark</title>
 </head>
 <body>
     <!-------------------------------------------------HEADER--------------------------------------------------->
-    <div>
-        <h1>Tzark</h1>
+    <div class="header">
+        <h1 class="logo">Tzark</h1>
         <!--Gold-->
-        <div>
-            <h1>Gold</h1>
-            <span id="gold-value">5</span>
+        <div class="value-style">
+            <h1 class="value-title">Gold</h1>
+            <span class="resource-value-style" id="gold-value">5</span>
         </div>
         <!--Wood-->
-        <div>
-            <h1>Wood</h1>
-            <span id="wood-value">20</span>
+        <div class="value-style">
+            <h1 class="value-title">Wood</h1>
+            <span class="resource-value-style" id="wood-value">20</span>
         </div>
         <!--Food-->
-        <div>
-            <h1>Food</h1>
-            <span id="food-value">20</span>
+        <div class="value-style">
+            <h1 class="value-title">Food</h1>
+            <span class="resource-value-style" id="food-value">20</span>
         </div>
         <!--Stone-->
-        <div>
-            <h1>Stone</h1>
-            <span id="stone-value">10</span>
+        <div class="value-style">
+            <h1 class="value-title">Stone</h1>
+            <span class="resource-value-style" id="stone-value">10</span>
+        </div>
+        <!--Population-->
+        <div class="value-style">
+            <h1 class="value-title">Population</h1>
+            <span class="resource-value-style" id="population-value">3</span>
         </div>
     </div>
-    
+    <!-------------------------------------------------END HEADER--------------------------------------------------->
+    <div>
+        <button id="build-home">Costruisci una casa popolare</button>
+    </div>
+
+
+    <script src="javascipt/population/population.js"></script>
 </body>
 </html>
